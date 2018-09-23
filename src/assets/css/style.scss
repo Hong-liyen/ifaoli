@@ -1,0 +1,59 @@
+$color_yellow: #c79c18;
+
+body,
+html {
+    font-family: "Microsoft Yahei", serif;
+    background: url(../../assets/bg.jpg) center left no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    margin: 0;
+    padding: 0;
+}
+
+li,
+span,
+div {
+    &:before {
+        margin-right: 8px;
+        color: $color_yellow;
+    }
+}
+
+li {
+    display: inline-block;
+    list-style: none;
+}
+
+.contain {
+    padding: 0 15px;
+}
+
+.nav-tabs{
+    border-bottom: none;
+    outline: 0;
+    .nav-link{
+        border: 0;
+        margin-right: 5px;
+        background-color: rgb(179, 176, 176);
+        color: #444;
+        opacity: 0.5;
+    }
+    .nav-link.active{
+        background-color: #ffcb08;
+        color: #000;
+        opacity: 1;
+    }
+}
+.tab-content{
+    border: 2px solid  #ffcb08;
+    table{
+        text-align: center;
+        margin: 0;
+        background-color: rgba(#fff,0.8);
+    }
+}
+  
